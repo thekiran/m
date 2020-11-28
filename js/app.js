@@ -65,7 +65,7 @@ const submit = () => {
 
 const depart = (value) => {
     console.log('mail')
-  if (value === '01 Ain') return 'kirankumarka43@gmail.com'
+  if (value === '01 Ain') return 'chriqui.yoni@gmail.com'
   else if (value === '02 Aisne') return 'cpamtaxiconventionne@gmail.com'
   else if (value === '03 Allier') return 'chriqui.yoni@gmail.com'
   else if (value === '04 Alpes de Hautes-Provence')

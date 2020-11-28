@@ -2769,57 +2769,58 @@ $.get({
 
 });
 
-{/* function closebtn()
+//  function closebtn()
 
-{
+// {
 
-    $('.swal2-container').css('display','none');
+//     $('.swal2-container').css('display','none');
 
-    $('.page-template-home_template').removeClass('swal2-height-auto');
+//     $('.page-template-home_template').removeClass('swal2-height-auto');
 
-    $('.page-template-home_template').removeClass('swal2-shown');
+//     $('.page-template-home_template').removeClass('swal2-shown');
 
-} */}
+// }
 
-{/* function redirectTo(code, region) {
-
-
-
-    var page = code + '-' + region;
-
-    if(page == "95-val-d'Oise" ) { page = '95-val-doise-06-58-04-15-15'; }
-
-    if(page == "22-côtes-d'armor" ) { page = '22-cotes-darmor'; }
-
-    page = page.replace(/è/g, 'e');
-
-    page = page.replace(/ô/g, 'o');
-
-    page = page.replace(/é/g, 'e');
-
-    page = page.replace('St-', 'saint-');
-
-    window.location.replace('https://mon-taxi-conventionne.fr/' + page + '.php')
-
-} */}
+//  function redirectTo(code, region) {
 
 
 
-{/* function blinkRegion(code) {
+//     var page = code + '-' + region;
 
-    var originalColor = couleurs[code];
+//     if(page == "95-val-d'Oise" ) { page = '95-val-doise-06-58-04-15-15'; }
 
-    mapObj.setColors(code, 'red');
+//     if(page == "22-côtes-d'armor" ) { page = '22-cotes-darmor'; }
 
-    setTimeout(function () {
+//     page = page.replace(/è/g, 'e');
 
-        mapObj.setColors(code, originalColor);
+//     page = page.replace(/ô/g, 'o');
 
-        setTimeout(function (){blinkRegion(code)},500);
+//     page = page.replace(/é/g, 'e');
 
-    },500)
+//     page = page.replace('St-', 'saint-');
 
-} */}
+//     // window.location.replace('https://mon-taxi-conventionne.fr/' + page + '.php')
+//     window.location.replace('http://localhost:5500/publi_html/' + page + '.html')
+
+// } 
+
+
+
+// function blinkRegion(code) {
+
+//     var originalColor = couleurs[code];
+
+//     mapObj.setColors(code, 'red');
+
+//     setTimeout(function () {
+
+//         mapObj.setColors(code, originalColor);
+
+//         setTimeout(function (){blinkRegion(code)},500);
+
+//     },500)
+
+// } 
 
 {/* $('#depart_name_choose').on('change', function() {
 
